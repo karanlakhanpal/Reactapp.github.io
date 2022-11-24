@@ -1,8 +1,16 @@
 import React from 'react'
+import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 function Cart() {
   return (
-    <div>Cart Items</div>
+    <>
+    <NavBar />
+    <div className="data">
+      <h1>Cart is Empty 😥</h1>
+    </div>
+    <Footer />
+    </>
   )
 }
 

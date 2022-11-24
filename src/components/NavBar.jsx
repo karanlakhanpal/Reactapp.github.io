@@ -2,13 +2,13 @@ import React from "react";
 import "../App.css";
 import { NavLink } from "react-router-dom";
 
-function Nav() {
+function NavBar() {
   return (
     <>
       <div className="nav_div">
         <div className="logo">
           <a href="index.html">
-            <img src="./images/logo.png" alt="logo" />
+            <img src="../images/logo.png" alt="logo" />
           </a>
         </div>
 
@@ -47,4 +47,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default NavBar;

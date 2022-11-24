@@ -48,10 +48,6 @@
   text-decoration: none;
   color: white;
 }
-/* .navlinks a:hover{
-  color: blueviolet;
-} */
-
 .searchbar{
   display: grid;
   place-items: center;
@@ -191,22 +187,67 @@ form.example::after {
   background-color: rgb(218, 212, 212);
 }
 .contain .signup{
-  display: grid;
-  place-items: center;
-  height: 350px;
-  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  padding: 40px;
+  height: 400px;
+  width: 400px;
   background-color: black;
-  box-shadow: 2px 2px 3px rgb(1, 1, 1);;
+  box-shadow: 2px 2px 3px rgb(1, 1, 1);
   font-size: 16px;
   color: white;
 } 
 .signup div{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  gap: 0 15px;
+  display: grid;
+  height: 50px;
+}
+.signup div input{
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+}
+.signup button{
+  width: 100px;
+  height: 35px;
+  margin-left: 100px;
 }
 a.active{
   color: blueviolet;
+}
+.main{
+  display:grid;
+  padding: 5px;
+  gap: 5px;
+  background-color: gainsboro;
+}
+.main div{
+  min-height: 200px;
+  background-color: white;
+  box-shadow: 1px 1px 3px rgb(73, 72, 72);
+  display: flex;
+  gap: 20px 3px;
+}
+.main div section{
+  border: 1px solid black;
+  width: 25%;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+}
+.main div section img{
+  height: 200px;
+  width: 200px;
+}
+.main div section a{
+  text-decoration: none;
+  
+}
+.data{
+  height: 430px;
+  display: grid;
+  place-items: center;
 }
 
