@@ -1,11 +1,8 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
 
 function Login() {
   return (
     <>
-    <NavBar />
     <section className="contain">
         <div className="signup">
             <div>
@@ -18,8 +15,8 @@ function Login() {
             </div>
             <button type="submit">Log In</button>
         </div>
+
     </section>
-    <Footer />
     </>
   )
 }

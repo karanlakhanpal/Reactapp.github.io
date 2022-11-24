@@ -231,15 +231,14 @@ a.active{
   gap: 20px 3px;
 }
 .main div section{
-  border: 1px solid black;
   width: 25%;
   display: grid;
   place-items: center;
   padding: 10px;
 }
 .main div section img{
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 300px;
 }
 .main div section a{
   text-decoration: none;
